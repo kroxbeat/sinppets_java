@@ -1,4 +1,4 @@
-package algorism.hashTable;
+package algorism.linkList;
 
 public class LinkList {
     int data;
