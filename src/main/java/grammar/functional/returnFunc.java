@@ -1,11 +1,7 @@
 package grammar.functional;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Optional;
 import java.util.function.BiFunction;
 import java.util.function.Function;
-import java.util.stream.IntStream;
 
 public class returnFunc {
     static Function<String,Function<String,String>> func = message -> name -> message+", "+name;
